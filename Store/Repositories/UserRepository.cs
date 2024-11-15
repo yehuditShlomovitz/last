@@ -3,11 +3,13 @@ using System.Text.Json;
 
 namespace Repositories
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository
+    //    : IUserRepository
     {
 
-        
-        string path = " M:\\webApi\\last\\Store\\Repositories\\users.txt";
+        string path = "M:\\webApi\\last\\Store\\Repositories\\users.txt";
+
+
         public User PostLoginR(string username, string password)
         {
             using (StreamReader reader = System.IO.File.OpenText(path))
