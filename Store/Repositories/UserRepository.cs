@@ -4,7 +4,7 @@ using System.Text.Json;
 namespace Repositories
 {
     public class UserRepository
-    //    : IUserRepository
+        : IUserRepository
     {
 
         string path = "M:\\webApi\\last\\Store\\Repositories\\users.txt";
